@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  color: #212121;
+}
+
+input,
+textarea,
+button {
+  font-family: inherit;
+  line-height: inherit;
+}
+
+button {
+    color: currentColor;
+}
+
+.form {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 12px;
+    padding: 8px;
+    border: 1px solid #212121;
+    max-width: 300px;
+}
+
+.form-button {
+    align-items: flex-start;
+}
