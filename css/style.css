@@ -19,6 +19,17 @@ button {
     color: currentColor;
 }
 
+button {
+	font-family: inherit;
+	color: currentColor;
+  cursor: pointer;
+}
+
+input {
+	font-family: inherit;
+}
+
+
 .form {
     display: flex;
     /* flex-direction: column; */
