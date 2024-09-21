@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Select</title>
+    <link rel="stylesheet" href="./css/select.css" />
+  </head>
+  <body>
+    <section>
+      <label for="size">Size</label>
+      <select name="size" id="size">
+        <option value="xs">Extra Small</option>
+        <option value="s">Small</option>
+        <option value="m" selected>Medium</option>
+        <option value="l">large</option>
+      </select>
+    </section>
+
+    <section>
+      <form class="form" name="issue_report_form" autocomplete="off">
+        <label class="form-label">
+          Your name
+          <input
+            class="form-input"
+            type="text"
+            name="username"
+            placeholder="Andrew Berger"
+            autofocus
+          />
+        </label>
+
+        <label class="form-label">
+          Topic
+          <input
+            class="form-input"
+            type="text"
+            name="topic"
+            placeholder="Short issue summary"
+          />
+        </label>
+
+        <label class="form-label">
+          Description
+          <textarea
+            class="form-input"
+            name="description"
+            placeholder="Please provide a detailed issue description"
+            rows="5"
+          ></textarea>
+        </label>
+        <label class="form-label"
+          >Urgency
+          <select class="form-input" name="urgency">
+            <option value="0">Light</option>
+            <option value="1">Medium</option>
+            <option value="2">High</option>
+            <option value="3">Critical</option>
+          </select>
+        </label>
+        <button class="form-button" type="submit">Submit an issue</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Group options</h2>
+      <label for="month">Month</label>
+      <select name="month" id="month">
+        <optgroup label="Summer">
+          <option value="s6">June</option>
+          <option value="s7">July</option>
+          <option value="s8">August</option>
+        </optgroup>
+        <optgroup label="Autumn">
+          <option value="s9">September</option>
+          <option value="s10">October</option>
+          <option value="s11">November</option>
+        </optgroup>
+      </select>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Part 2</title>
+    <link rel="stylesheet" href="./css/textarea.css" />
+  </head>
+  <body>
+    <section>
+      <form>
+        <label>
+          Username
+          <input type="text" name="username" placeholder="Name Surname" />
+        </label>
+        <label>
+          Feedback
+          <textarea
+            name="feedback"
+            rows="5"
+            placeholder="Enter your message here..."
+          ></textarea>
+        </label>
+      </form>
+      <button type="submit">Submit</button>
+    </section>
+
+    <section>
+      <form class="form" name="issue_report_form" autocomplete="off">
+        <label class="form-label">
+          Your name
+          <input
+            class="form-input"
+            type="text"
+            name="username"
+            placeholder="Andrew Berger"
+            autofocus
+          />
+        </label>
+
+        <label class="form-label">
+          Topic
+          <input
+            class="form-input"
+            type="text"
+            name="topic"
+            placeholder="Short issue summary"
+          />
+        </label>
+
+        <label class="form-label">
+          Description
+          <textarea
+            class="form-input"
+            name="description"
+            placeholder="Please provide a detailed issue description"
+            rows="5"
+          ></textarea>
+        </label>
+        <button class="form-button" type="submit">Submit an issue</button>
+      </form>
+    </section>
+  </body>
+</html>
