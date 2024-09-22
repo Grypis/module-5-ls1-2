@@ -26,19 +26,81 @@
     <section>
       <form>
         <p>What is your hobbies?</p>
-        <label>
+        <label class="label">
           <input type="checkbox" name="hobby" value="music" checked />
           Music
         </label>
-        <label>
+        <label class="label">
           <input type="checkbox" name="hobby" value="sport" />
           Sport
         </label>
-        <label>
+        <label class="label">
           <input type="checkbox" name="hobby" value="art" />
           Art
         </label>
       </form>
+    </section>
+
+    <section>
+      <h2>From LMS</h2>
+      <form class="quiz-form">
+        <p class="form-title">Select the planets of the solar system</p>
+        <div>
+          <div class="form-field">
+            <input type="checkbox" name="answer" value="earth" id="earth" />
+            <label for="earth">Earth</label>
+          </div>
+          <div class="form-field">
+            <input type="checkbox" name="answer" value="mercury" id="mercury" />
+            <label for="mercury">Mercury</label>
+          </div>
+          <div class="form-field">
+            <input type="checkbox" name="answer" value="corvus" id="corvus" />
+            <label for="corvus">Corvus</label>
+          </div>
+          <div class="form-field">
+            <input type="checkbox" name="answer" value="isirah" id="isirah" />
+            <label for="isirah">Isirah</label>
+          </div>
+        </div>
+        <button type="submit">Next question</button>
+      </form>
+    </section>
+
+    <section>
+      <form>
+        <label>
+          Name
+          <input type="text" name="username" required />
+        </label>
+        <label>
+          Phone number
+          <input type="number" name="contact_tel" required />
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" required />
+        </label>
+        <button type="submit" class="submit-btn" disabled>Click it</button>
+      </form>
+    </section>
+
+    <section>
+      <fieldset>
+        <legend>Enter your contact ditails</legend>
+        <label>
+          Name
+          <input type="text" name="username" />
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" />
+        </label>
+        <label>
+          Tel
+          <input type="tel" />
+        </label>
+      </fieldset>
     </section>
   </body>
 </html>
